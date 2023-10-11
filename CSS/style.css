@@ -1,4 +1,4 @@
-:root{
+:root {
   --primary: #50539f;
   --secondary: #8486bb;
   --bg: #eee;
@@ -275,8 +275,8 @@ body {
 
 .gallery .container .thumbnail {
   width: 23%;
-  margin-bottom: .1rem;
-  margin-right: .2rem;
+  margin-bottom: 0.1rem;
+  margin-right: 0.2rem;
 }
 
 .gallery .container .thumbnail img {
@@ -373,12 +373,11 @@ footer .links {
   margin-bottom: 2rem;
 }
 
-footer .credit p{
+footer .credit p {
   font-size: 1.1rem;
 }
 
 /* breakpoints css / media queries*/
-
 /* laptop */
 @media (max-width: 992px) {
   html {
@@ -387,7 +386,7 @@ footer .credit p{
 }
 
 /* tablets */
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   html {
     font-size: 62.5;
   }
